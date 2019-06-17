@@ -37,5 +37,69 @@ a:visited{
   text-decoration: none;
 }
 .layoutBody{
-  
+  background-color: gainsboro;
+  padding: .5rem;
+  margin-top: .5rem;
+  opacity: .75;
+  min-height: 85vh;
+}
+.footer{
+  height: 9.25rem;
+  width: 100%;
+  background: tan;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  height: 5rem;
+  margin: 1rem 1rem 0rem 1rem;
+}
+.CaptainFinn{
+  margin-top: 1rem;
+}
+.contact{
+  display: grid;
+  grid-template-columns:30px 250px;
+  grid-template-rows: 25px 25px 25px;
+}
+.contactType{
+  grid-column: 0;
+  margin:0rem;
+}
+.contactDetails{
+  grid-column: 1;
+  margin:0rem;
+}
+.ft-item{
+  text-align: left;
+}
+
+.contactContainer{
+  margin: 1rem;
+  align-self: flex-end;
+}
+
+.CaptainFinnContainer{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-bottom:1rem;
+}
+
+@media only screen and (max-width:605px){
+  .footer{
+    height: 20rem;
+
+  }
+  img{
+    height: 4.5rem;
+  }
+  .CaptainFinnContainer{
+    display: flex;
+    flex-direction: row;
+  }  
 }

@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./header"
 import logo from "../assets/logo.jpg"
 import './layout.css'
+import Footer from '../components/footer'
 
 export default ({ children }) => (
   <div style={{ margin: `1rem auto`, maxWidth: 650, maxHeight:50, padding: `0.1rem` }}>
@@ -11,6 +12,9 @@ export default ({ children }) => (
     </div>
     <div className="layoutBody">
       {children}      
+    </div>
+    <div>
+      <Footer/>
     </div>
   </div>
 )
