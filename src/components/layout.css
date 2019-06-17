@@ -1,8 +1,15 @@
 html {
   font-family: sans-serif;
 }
-body {
-
+body{ 
+  background-image: url('../assets/close-up-door-focus-101808.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 200%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 header{
   display: flex;
