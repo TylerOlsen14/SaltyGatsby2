@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "./header"
 import './layout.css'
-// import Footer from './footer'
+import Footer from './footer'
 import Routes from './routes'
 
 export default ({ children }) => (
@@ -16,8 +16,8 @@ export default ({ children }) => (
     <div className="siteLinks">
       <Routes/>
     </div>
-    {/* <div >
+    <div >
       <Footer/>
-    </div> */}
+    </div>
   </div>
 )

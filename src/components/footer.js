@@ -1,41 +1,25 @@
-import React, { Component } from "react";
-import finn from "../assets/Finn.jpg";
-import "./layout.css";
+import React, { Component } from "react"
+import finn from "../assets/Finn.jpg"
+import "./footer.css"
 
 const Footer = () => (
   <div className="footer">
-      {/* <div className="footerContainer"> */}
-        <div className="CaptainFinnContainer">
-          <img src={finn} alt="Captain Finn Web Design" />
-          <h3 className="CaptainFinn">Captain Finn <br />Web Designs</h3>
-        </div>
-        <div className="contactContainer">
-            <h3>Contact:</h3>
-          <div className="contact">
-            <div className="contactType phone">
-              <i class="fas fa-phone-square"></i>
-            </div>
-            <div className="contentDetails">
-              <p>(801) 661-9191</p>
-            </div>
-            <div className="contactType email">
-              <i class="fas fa-envelope"></i>
-              {/* <h5>Email: </h5> */}
-              </div>
-              <div className="contentDetails">
-              <p>Tyler.Olsen1@gmail.com</p>
-            </div>
-            <div className="contactType github">
-              <i class="fab fa-github"></i>
-              {/* <h5>GitHub: </h5> */}
-            </div>
-            <div className="contentDetails">
-              <p>https://github.com/TylerOlsen14</p>
-            </div>
-          </div>
-        </div>
-      {/* </div> */}
+    <div className="CaptainFinnContainer">
+      <img src={finn} alt="Captain Finn Web Design" />
+      <h3 className="CaptainFinn">
+        Captain Finn <br /> Web Designs
+      </h3>
     </div>
-    );
+    <div className="contactContainer">
+      <p>Contact:</p>
+        <i class="fas fa-phone-square"> (801) 661-9191</i>
+        <br/>
+        <i class="fas fa-envelope"> Tyler.Olsen1@gmail.com</i>
+        <br/>
+        <i class="fab fa-github"> https://github.com/TylerOlsen14</i>
+        <br/>
+    </div>
+  </div>
+)
 
-export default Footer;
+export default Footer

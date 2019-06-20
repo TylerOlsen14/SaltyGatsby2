@@ -1,0 +1,42 @@
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  height: 550px;
+  width: 100%;
+  height: 7rem;
+  background: tan;
+}
+.ft-item{
+  text-align: left;
+}
+.contactContainer{
+  margin: 1rem;
+  align-self: flex-end;
+}
+
+.CaptainFinnContainer{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  /* margin-bottom:1rem; */
+}
+.CaptainFinn{
+  align-self: flex-end;
+  margin-bottom: -.1rem;
+}
+
+@media only screen and (max-width:605px){
+  .footer{
+    height: 20rem;
+  }
+  img{
+    height: 4.5rem;
+  }
+  .CaptainFinnContainer{
+    display: flex;
+    flex-direction: row;
+  }  
+}
