@@ -1,7 +1,8 @@
 import React from "react"
 import Header from "./header"
 import './layout.css'
-import Footer from './footer'
+// import Footer from './footer'
+import Routes from './routes'
 
 export default ({ children }) => (
   <div style={{ margin: `1rem auto`, maxWidth: "90%", maxHeight:50, padding: `0.1rem` }}>
@@ -11,6 +12,9 @@ export default ({ children }) => (
     </div>
     <div className="layoutBody">
       {children}      
+    </div>
+    <div className="siteLinks">
+      <Routes/>
     </div>
     {/* <div >
       <Footer/>

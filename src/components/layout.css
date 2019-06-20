@@ -54,6 +54,10 @@ ul {
   display: flex;
   flex-direction: column;
 }
+/* Link{
+  display: flex;
+  flex-direction: column;
+} */
 /* .footer{
   max-height: 350px;
   width: 100%;

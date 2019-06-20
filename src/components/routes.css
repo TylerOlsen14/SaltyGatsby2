@@ -1,0 +1,10 @@
+.routes{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: .25rem;
+  background-color: bisque;
+  padding: .5rem;
+  margin-bottom: .25rem;
+}

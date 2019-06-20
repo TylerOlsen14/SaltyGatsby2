@@ -12,8 +12,7 @@ const Contact = () => {
         <h1>Let's talk together</h1>
         <h2>Phone number?</h2>
       </div>
-      <Link to={paths.home}>Home</Link>   
-      <Link to={paths.about}>About</Link>   
+
     </Layout>
   )
 }
