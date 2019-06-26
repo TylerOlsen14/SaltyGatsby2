@@ -8,7 +8,11 @@ const Footer = () => (
     <div className="CaptainFinnContainer">
       <img src={finn} alt="Captain Finn Web Design" />
       <h3 className="CaptainFinn">
-        Captain Finn <br /> Web Designs
+        <p>
+          Tucker & co.
+          <br/>
+          Web Design
+        </p>
       </h3>
     </div>
     <div className="contactContainer">

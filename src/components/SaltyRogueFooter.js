@@ -1,8 +1,8 @@
-import { Link } from 'gatsby'
-import { paths } from '../routes/index'
-import React from 'react'
-import './SaltyRogueFooter.css'
-import logo from "../assets/logo.jpg"
+import { Link } from 'gatsby';
+import { paths } from '../routes/index';
+import React from 'react';
+import logo from "../assets/logo.jpg";
+import "./SaltyRogueFooter.css";
 
 const ListLink = props => (
   <li>

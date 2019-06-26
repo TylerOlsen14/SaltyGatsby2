@@ -16,7 +16,11 @@
   margin: 1rem;
   align-self: flex-end;
 }
-
+img{
+  width: 7rem;
+  height: 7rem;
+  margin-right: 1rem;
+}
 .CaptainFinnContainer{
   display: flex;
   flex-direction: row;

@@ -2,32 +2,32 @@
   box-sizing: border-box;
 }
 .SaltyFooter{
-  width: 100%;
+  padding: .5rem;
+  background-color: black;
   margin-top: .5rem;
-  background-color: bisque;
   margin-bottom: .25rem;
-  display: inline-grid;
-  grid-template-columns: auto 75px 50px;
-  grid-row: auto;
+  display: flex;
+  flex-direction: row;
   justify-items: start;
+  color: white;
 }
 .logo{
-  grid-column: 2/3;
+  border: .25rem solid gray;
+  margin: .25rem;
+  height: 10rem;
+  width: 10rem;
 }
 .SaltyInfo{
-  /* width: 100%; */
-  grid-column: 0/1;
   padding: 1em;
-  border: 1px solid red;
+  margin: .25rem;
+  border: 1px solid green;
 }
-
 .SaltyFooterLinks{
-  grid-column: 1/2;
+  margin: .25rem;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
   list-style: none;
   padding-left: 1em;
   width: 100%;
-  border: 1px solid red;
 }
