@@ -1,0 +1,42 @@
+header{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  background-color: limegreen;
+  list-style: none;
+  height: 75px;
+}
+a{
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+a:visited{
+  color: blue;
+  text-decoration: none;
+}
+.layoutBody{
+  background-color: gainsboro;
+  padding: .5rem;
+  margin-top: .5rem;
+  opacity: .75;
+  min-height: 85vh;
+}
+.logo{
+  height: 4.5rem;
+  width: 4.5rem;
+  border: .25rem solid gray;
+  margin: .25rem;
+  /* width:"50px";
+  height: "50px"; */
+  }
+ul {
+  list-style: none;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
