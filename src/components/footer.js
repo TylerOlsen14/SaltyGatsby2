@@ -1,7 +1,12 @@
 // import React, { Component } from "react"
-import React from "react"
-import finn from "../assets/Finn.jpg"
-import "./footer.css"
+import React from "react";
+import finn from "../assets/Finn.jpg";
+import {
+  FaPhoneSquare,
+  FaGithubSquare,
+  FaEnvelope,
+} from 'react-icons/fa';
+import "./footer.css";
 
 const Footer = () => (
   <div className="footer">
@@ -18,15 +23,15 @@ const Footer = () => (
     <div className="contactContainer">
       <p>Contact:
         <br/>
-        <i class="fas fa-phone-square"> | (801) 661-9191</i>
+        <FaPhoneSquare /> | (801) 661-9191 AHHHHHH
         <br/>
-        <i class="fas fa-envelope"> | Tyler.Olsen1@gmail.com</i>
+        <FaEnvelope />
+        | Tyler.Olsen1@gmail.com
         <br/>
-        <i class="fab fa-github">
+        <FaGithubSquare />
           <strong> |
             https://github.com/TylerOlsen14
           </strong>
-        </i>
         <br/>
       </p>
     </div>
