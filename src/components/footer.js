@@ -6,7 +6,7 @@ import "./footer.css"
 const Footer = () => (
   <div className="footer">
     <div className="CaptainFinnContainer">
-      <img src={finn} alt="Captain Finn Web Design" />
+      <img src={finn} className="logoFooter" alt="Captain Finn Web Design" />
       <h3 className="CaptainFinn">
         <p>
           Tucker & co.
@@ -18,11 +18,15 @@ const Footer = () => (
     <div className="contactContainer">
       <p>Contact:
         <br/>
-        <i class="fas fa-phone-square"> (801) 661-9191</i>
+        <i class="fas fa-phone-square"> | (801) 661-9191</i>
         <br/>
-        <i class="fas fa-envelope"> Tyler.Olsen1@gmail.com</i>
+        <i class="fas fa-envelope"> | Tyler.Olsen1@gmail.com</i>
         <br/>
-        <i class="fab fa-github"> https://github.com/TylerOlsen14</i>
+        <i class="fab fa-github">
+          <strong> |
+            https://github.com/TylerOlsen14
+          </strong>
+        </i>
         <br/>
       </p>
     </div>

@@ -20,7 +20,7 @@ const Routes = () => (
       <ListLink to={paths.about}>About</ListLink>
       <ListLink to={paths.contact}>Contact</ListLink>
     </div>
-    <img src={logo} alt="Salty Rogue Real Estate" className="logo" />
+    <img src={logo} alt="Salty Rogue Real Estate" className="logoFooter" />
     {/* <img src={logo} alt="Salty Rogue Real Estate" className="logo" style={{width: "50px", height: "50px"}} /> */}
   </div>
 )
