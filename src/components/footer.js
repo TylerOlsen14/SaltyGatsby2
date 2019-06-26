@@ -21,19 +21,18 @@ const Footer = () => (
       </h3>
     </div>
     <div className="contactContainer">
-      <p>Contact:
+      <strong>
+        <p>Contact:
         <br/>
         <FaPhoneSquare /> | (801) 661-9191 AHHHHHH
         <br/>
         <FaEnvelope />
         | Tyler.Olsen1@gmail.com
         <br/>
-        <FaGithubSquare />
-          <strong> |
-            https://github.com/TylerOlsen14
-          </strong>
+        <FaGithubSquare /> | https://github.com/TylerOlsen14
         <br/>
-      </p>
+        </p>
+      </strong>
     </div>
   </div>
 )
