@@ -11,8 +11,8 @@ const ListLink = props => (
 )
 
 const Header = ({ siteTitle }) => (
-  <header style={{}}>
-    <img src={logo} alt="Salty Rogue Real Estate" className="logo" />
+  <header className="header">
+    <img src={logo} alt="Salty Rogue Real Estate" className="logoSalty" />
     <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`}}>
       <h1>Salty Rogue Real Estate</h1>        
     </Link>
