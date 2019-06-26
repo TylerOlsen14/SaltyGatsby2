@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./header"
 import './layout.css'
 import Footer from './footer'
-import Routes from './routes'
+import SaltyFooter from './SaltyRogueFooter'
 
 export default ({ children }) => (
   <div style={{ margin: `1rem auto`, maxWidth: "90%", maxHeight:50, padding: `0.1rem` }}>
@@ -14,7 +14,7 @@ export default ({ children }) => (
       {children}      
     </div>
     <div className="siteLinks">
-      <Routes/>
+      <SaltyFooter/>
     </div>
     <div >
       <Footer/>

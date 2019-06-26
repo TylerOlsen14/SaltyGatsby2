@@ -12,7 +12,6 @@ const ListLink = props => (
 
 const Routes = () => (
   <div className="SaltyFooter">
-    <img src={logo} alt="Salty Rogue Real Estate" className="logo" />
     <div className="SaltyInfo">
       <h6>This is where the firm's info will be found</h6>
     </div>
@@ -21,6 +20,8 @@ const Routes = () => (
       <ListLink to={paths.about}>About</ListLink>
       <ListLink to={paths.contact}>Contact</ListLink>
     </div>
+    <img src={logo} alt="Salty Rogue Real Estate" className="logo" />
+    {/* <img src={logo} alt="Salty Rogue Real Estate" className="logo" style={{width: "50px", height: "50px"}} /> */}
   </div>
 )
 

@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
 
-import { paths } from './'
+// import { paths } from './'
 
 const Contact = () => {
   return(
