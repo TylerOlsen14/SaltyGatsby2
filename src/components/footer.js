@@ -16,13 +16,15 @@ const Footer = () => (
       </h3>
     </div>
     <div className="contactContainer">
-      <p>Contact:</p>
+      <p>Contact:
+        <br/>
         <i class="fas fa-phone-square"> (801) 661-9191</i>
         <br/>
         <i class="fas fa-envelope"> Tyler.Olsen1@gmail.com</i>
         <br/>
         <i class="fab fa-github"> https://github.com/TylerOlsen14</i>
         <br/>
+      </p>
     </div>
   </div>
 )
