@@ -13,6 +13,8 @@ const Home = () => (
     <div className="HomeLink">
       <Link to={paths.about}>Go to About</Link>
       <Link to={paths.contact}>Contact US!!!</Link>
+      <Link to={paths.LaurelStreet}>Go to LaurelStreet</Link>
+      <Link to={paths.EmmaStreet}>Go to EmmaStreet</Link>
     </div>
   </Layout>
 )
