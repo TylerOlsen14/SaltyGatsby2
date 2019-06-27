@@ -15,6 +15,14 @@ const routes = {
   contact: {
     path: '/contact',
     component: path.resolve(__dirname, 'contact.js')
+  },
+  EmmaStreet: {
+    path: '/EmmaStreet',
+    component: path.resolve(__dirname, 'EmmaStreet.js')
+  },
+  LaurelStreet: {
+    path: '/LaurelStreet',
+    component: path.resolve(__dirname, 'LaurelStreet.js')
   }
 }
 
