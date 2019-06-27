@@ -1,0 +1,28 @@
+.CarouselImage{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  opacity: 1;
+}
+
+.Carousel{
+  width: 95%;
+  margin: 10px;
+}
+
+.title{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card{
+  opacity: 1;
+}
+
+.CarouselCaption{
+  color: white;
+  font-size: 52px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
