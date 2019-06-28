@@ -9,6 +9,7 @@ import {
   CarouselCaption
 } from 'reactstrap'
 import './propertyStyle.css'
+import Layout from '../components/layout'
 
 const items = [
   {
@@ -122,24 +123,26 @@ class LaurelStreet extends React.Component {
 
     return (
       <div>
-        <Card className="card">
-          <CardTitle className="title">
-            <p>
-              Laurel Street
-            </p>
-          </CardTitle>
-          <Carousel
-            activeIndex={activeIndex}
-            next={this.next}
-            prevous={this.previous}
-            className="Carousel carousel-fade"
-          >
-            <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-            {slides}
-            <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-            <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-          </Carousel>
-        </Card>
+        <Layout>
+          <Card className="card">
+            <CardTitle className="title">
+              <p>
+                Laurel Street
+              </p>
+            </CardTitle>
+            <Carousel
+              activeIndex={activeIndex}
+              next={this.next}
+              prevous={this.previous}
+              className="Carousel carousel-fade"
+            >
+              <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+              {slides}
+              <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+              <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+            </Carousel>
+          </Card>
+        </Layout>
       </div>
     );
   }
