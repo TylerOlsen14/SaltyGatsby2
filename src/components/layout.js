@@ -15,8 +15,8 @@ export default ({ children }) => (
     </div>
     <div className="siteLinks">
       <SaltyFooter/>
-    </div>
-    <div >
+    {/* </div>
+    <div > */}
       <Footer/>
     </div>
   </div>

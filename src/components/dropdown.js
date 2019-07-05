@@ -1,39 +1,41 @@
 import React from 'react'
-  import {
-    MDBDropdown,
-    MDBDropdownToggle,
-    MDBDropdownMenu,
-    MDBDropdownItem
-  } from "mdbreact";
-  import { Link } from 'gatsby'
+import { Link } from 'gatsby'
+import './dropdown.css'
 
-const ListLink = props => (
-  <MDBDropdownItem style={{ display: `inline-block`, marginRight: `1rem`, }}>
-    <Link to={props.to}>{props.children}</Link>
-  </MDBDropdownItem>
-)
 
-const Navigation = () => {
-    return (
-      <MDBDropdown>
-        <MDBDropdownToggle caret color="primary">
-          Properties:
-        </MDBDropdownToggle>
-        <MDBDropdownMenu basic>
-          <MDBDropdown>
-            <Link to="/LaurelStreet">
-              Laurel Street
-            </Link>
-          </MDBDropdown>
-          <MDBDropdownItem divider />
-          <MDBDropdown>
-            <Link to="/EmmaStreet">
-              Emma Street
-            </Link>
-          </MDBDropdown>
-        </MDBDropdownMenu>
-      </MDBDropdown>
-    );
+const DropdownNavBar = () => {
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
   }
 
-export default Navigation
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  },
+  
+  <div class="dropdown">
+    <button onClick="myFunction()" class="dropbtn">
+      Dropdown
+    </button>
+    <div className="myDropdown">
+      <ul>
+        <li>
+          <Link to='/LaurelStreet'>Laurel Street</Link>
+        </li>
+        <li>
+          <Link to='/EmmaStreet'>Emma Street</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+}
+
+export default DropdownNavBar
