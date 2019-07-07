@@ -21,10 +21,11 @@
   padding: 1em;
   margin: .25rem;
   border: 1px solid green;
+  flex-basis: 800%;
 }
 .SaltyFooterLinks{
   margin: .25rem;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   list-style: none;

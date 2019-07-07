@@ -24,10 +24,9 @@ const Footer = () => (
       <strong>
         <p>Contact:
         <br/>
-        <FaPhoneSquare /> | (801) 661-9191 AHHHHHH
+        <FaPhoneSquare /> | (801) 661-9191
         <br/>
-        <FaEnvelope />
-        | Tyler.Olsen1@gmail.com
+        <FaEnvelope /> | Tyler.Olsen1@gmail.com
         <br/>
         <FaGithubSquare /> | https://github.com/TylerOlsen14
         <br/>
