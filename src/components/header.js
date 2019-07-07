@@ -23,7 +23,7 @@ const Header = () => (
         <ListLink to="/">Home</ListLink>
       </li>
       <li>
-        Properties
+        <a href="#">Properties</a>
         <ul>
           <li>
             <ListLink to="/LaurelStreet">Laurel Street</ListLink>

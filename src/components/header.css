@@ -25,14 +25,21 @@ header ul li {
   padding: 1rem .5rem;
 }
 header ul li ul {
-  display: block;
+  display: none;
   position: absolute;
   background-color: limegreen;
-  
+  font-size: 18px;
 }
-header ul li ul li {
-
-  /* padding: 1rem 0rem; */
+header ul li ul:hover{
+  display: block
+}
+header ul li ul li{
+  margin: 0;
+  width: 180px;
+  border-radius: 10px
+}
+header ul li:hover ul {
+  display: block;
 }
 .logoSalty{
   height: 4.5rem;
