@@ -1,0 +1,14 @@
+.actions{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 1rem;
+  list-style: none;
+}
+.Form{
+  display: flex;
+  flex-direction: column;
+}
+textarea{
+  width: 400px;
+}
