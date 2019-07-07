@@ -31,7 +31,7 @@ export class form extends Component {
           className="Form"
           name="contact"
           method="post"
-          action="#"
+          action="/success"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >

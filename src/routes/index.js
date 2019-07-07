@@ -16,6 +16,10 @@ const routes = {
     path: '/contact',
     component: path.resolve(__dirname, 'contact.js')
   },
+  Success: {
+    path: '/success',
+    component: path.resolve(__dirname, 'success.js')
+  },
   EmmaStreet: {
     path: '/EmmaStreet',
     component: path.resolve(__dirname, 'EmmaStreet.js')
