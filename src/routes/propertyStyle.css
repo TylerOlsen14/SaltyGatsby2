@@ -16,13 +16,7 @@
   margin-bottom: 5px;
 }
 
-.card{
-  /* opacity: 1; */
-}
-
 .CarouselCaption{
   color: white;
   font-size: 52px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
